@@ -25,6 +25,7 @@ int main( void )
 // -------------------------------------------
         // Cycle through UART2->UART3
         UART_puts(2,cad);
+        UART_puts(2,"\r");
         UART_gets(3,cadUart3);
         UART_gotoxy(0,5,3);
         UART_puts(0,cadUart3);
