@@ -1,6 +1,6 @@
 // Prototypes
 // Initialization
-UART_Ini(uint8_t com, uint16_t baudrate, uint8_t size, uint8_t parity, uint8_t stop)
+UART_Ini(uint8_t com, uint32_t baudrate, uint8_t size, uint8_t parity, uint8_t stop)
 
 // Send
 void UART_puts(uint8_t com, char *str);
